@@ -424,11 +424,11 @@ header {
     padding: 30px 30px 0 30px;
     display: inline-block;
     position: relative;
-    margin: 0 auto; }
+    margin: 0 auto;
+    text-align: center; }
     header nav.nav-bar a {
       display: inline-block;
-      padding-rigt: 20px;
-      padding-left: 20px;
+      padding: 10px 20px 10px;
       color: rgba(0, 0, 0, 0.4);
       transition: 0.2s ease-out; }
       header nav.nav-bar a:hover {
@@ -445,12 +445,10 @@ header {
     border: none;
     margin: 0 auto 0 auto;
     transition: 0.6s ease-in; }
-    header h1:hover {
-      color: #FFF498; }
   header hr {
     border: solid #fff;
     border-top-width: 3px;
-    width: 100px;
+    width: 120px;
     margin: 10px auto 0px;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -603,10 +601,9 @@ section .skill-lockup {
     margin: 0 0 30px; }
     section .skill-lockup .skill-icons span {
       display: inline-block;
-      height: 14px;
-      width: 14px;
-      margin-right: 5px;
-      border-radius: 50%; }
+      height: 20px;
+      width: 20px;
+      margin-right: 2px; }
 
 .projects-section {
   width: 98%;

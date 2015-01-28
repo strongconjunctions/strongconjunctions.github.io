@@ -2,6 +2,7 @@
 title: Strong Conjunctions
 email: strongconjunctions@gmail.com
 description: "UX // Design // Development"
+url: "http://yourdomain.com"
 
 #About settings
 
@@ -12,8 +13,11 @@ face: BUUU3.jpg
 
 # Build settings
 
+highlighter: pygments
 markdown: kramdown
 permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 port: 4000
 
